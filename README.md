@@ -24,3 +24,17 @@ The dataset also has a set of about 35 statistics for each player, derived from 
 - The p-value means the probability of an 0.4525 increasing in player rating due to a one unit increase in potential is 0% , assuming there is no relationship between the two variables.
 - A low p-value indicates that the results are statistically significant, that is in general the p-value is less than 0.05.
 - The confidence interval is a range within which our coefficient is likely to fall. We can be 95% confident that potentials's coefficient will be within our confidence interval, [0.450,0.455].
+
+## CONCLUSION :
+### We have use the below models to predict the player ratings.
+- statsmodels.api.OLS
+- LinearRegression
+- DecisionTreeRegressor
+
+### Sampling Mechanisms used:-
+- Test Train Split
+- 10 Fold Cross Validation
+
+### Model Estimation mechanisms used:
+- Root Mean Squared Error
+- 10 Fold Cross Validation error
